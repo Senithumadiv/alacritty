@@ -1,0 +1,67 @@
+window:
+  padding:
+    x: 5
+    y: 5
+  class:
+    instance: Alacritty
+    general: Alacritty
+  opacity: 1
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+background_opacity: 0.75
+
+cursor:
+ style: Underline
+
+font:
+  normal:
+    family: agave Nerd Font
+    style:  Medium
+  bold:
+    family: agave Nerd Font
+    style:  Bold
+  italic:
+    family: agave Nerd Font
+    style:  MediumItalic
+  bold_italic:
+    family: agave Nerd Font
+    style: BoldItalic
+  size: 10
+draw_bold_text_with_bright_colors: true
+
+colors:
+  primary:
+    background: "#1e2030"
+    foreground: "#d7d7d7"
+  normal:
+      black:   '#000000'
+      red:     '#f38ba8'
+      green:   '#50fa7b'
+      yellow:  '#f1fa8c'
+      blue:    '#bd93f9'
+      magenta: '#ff79c6'
+      cyan:    '#8be9fd'
+      white:   '#bfbfbf'
+  bright:
+      black:   '#4d4d4d'
+      red:     '#ff6e67'
+      green:   '#5af78e'
+      yellow:  '#f4f99d'
+      blue:    '#caa9fa'
+      magenta: '#ff92d0'
+      cyan:    '#9aedfe'
+      white:   '#e6e6e6'
+
+selection:
+  save_to_clipboard: false
+
+shell:
+  program: /usr/bin/bash
+
+key_bindings:
+  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
+
+
